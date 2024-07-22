@@ -1,10 +1,10 @@
 {
   "name": "@kookapp/kook-message-preview",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "KOOK 消息预览组件",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
-  "types": "",
+  "typings": "types/index.d.ts",
   "scripts": {
     "dev": "PORT=8888 dumi dev",
     "build": "father build",
@@ -13,7 +13,8 @@
   "authors": [],
   "license": "MIT",
   "files": [
-    "dist"
+    "dist",
+    "types"
   ],
   "publishConfig": {
     "access": "public"
