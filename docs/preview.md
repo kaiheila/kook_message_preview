@@ -72,5 +72,5 @@ export default () => (
 | customVideoEvents | 自定义视频事件处理器 | `{ onPlay: (cardModule) => void, onDownload: (cardModule) => void }` |  |
 | customAudioEvents | 自定义音频事件处理器 | `{ onPlay: (cardModule) => void, onDownload: (cardModule) => void }` |  |
 | customFileEvents | 自定义文件事件处理器 | `{ onDownload: (cardModule) => void }` |  |
-| customButtonClick | 自定义按钮事件 | `(cardModule) => void` |  |
+| customButtonClick | 自定义按钮点击事件 | `(cardModule) => void` |  |
 | customImageClick | 自定义图片点击事件 | `(cardModule) => void` |  |
