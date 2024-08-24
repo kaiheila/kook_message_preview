@@ -93,7 +93,7 @@ function parseTag(item, options) {
       break;
     case 'emj':
       fragment = (
-        <img className="emoji custom" src={getCustomEmojiUrl(attrs.join(''))} />
+        <img className="emoji custom" src={getCustomEmojiUrl(attrs.id)} />
       );
       break;
     case 'spl':
